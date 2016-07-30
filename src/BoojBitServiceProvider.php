@@ -22,7 +22,7 @@ class BoojBitServiceProvider extends ServiceProvider
 		$this->loadViewsFrom(__DIR__.'/resources/views', $this->packagesName);
 		include __DIR__.'helpers.php';
 		include __DIR__.'bladeHelpers.php';
-		$this->publishes([__DIR__.'/config.php' => base_path('config)], $this->packageName.':configs');
+		$this->publishes([__DIR__.'/config.php' => base_path('config')], $this->packageName.':configs');
 		$this->publishes([__DIR__.'/database/migrations' => base_path('database/migrations')], $this->packageName.':migrations');
 		$this->publishes([__DIR__.'/database/seeds' => base_path('database/seeds')], $this->packageName.':seeds');
 		$this->publishes([__DIR__.'/resources/views' => base_path('resources/views/vendor/')], $this->packageName.':views');
