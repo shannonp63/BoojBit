@@ -1,0 +1,12 @@
+{
+	"name": "shannonp63/BoojBit",
+	"autoload": {
+		"psr-0": {
+			"shannonp63\\BoojBit": "src"
+		}
+	},
+	"require": {
+		"laravel/socialite": "2.0.18",
+		"socialiteproviders/fitbit": "2.0.3"
+	}
+}
