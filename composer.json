@@ -1,8 +1,8 @@
 {
-	"name": "shannonp63/BoojBit",
+	"name": "shannonp63/boojbit",
 	"autoload": {
 		"psr-0": {
-			"shannonp63\\BoojBit": "src"
+			"shannonp63\\boojbit": "src"
 		}
 	},
 	"require": {
